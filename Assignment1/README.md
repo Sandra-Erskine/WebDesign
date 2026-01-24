@@ -1,1 +1,4 @@
-
+# My Sister's Keeper
+## A Novel By Jodi Picoult
+This Novel is a heart-wrenching example of medical morailty and ethics. What can we say to a baby designed to save its sister? 
+The concept of the book deals with designer DNA provided with CRISPR technology. A couple with their second born child, a daughter, is tragically struck with a rare form of leukemia. The parents are at a loss when the only treatment that may potentially save their daughter is the tissue and blood from an umbilical cord. Anna is the designed baby to be a donor sibling to Kate, the eldest daughter with cancer. Although Anna was only meant to donoate the umbikical cord, over the years of relapes with kates leukimia, Anna is always dragged along to donate tissues and fluids that kate needs. This medical ethical dilemma comes to a piviotal moment when Anna sues her parnets at 13, for medical autonomy and having the right to decide what is right for her body. 
