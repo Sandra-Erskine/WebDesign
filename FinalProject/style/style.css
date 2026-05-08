@@ -1,6 +1,4 @@
-/* =========================
-   BASE + PAGE STRUCTURE
-========================= */
+/* base+style */
 
 
 body {
@@ -15,9 +13,7 @@ body {
   padding: 20px;
 }
 
-/* =========================
-   NAVIGATION
-========================= */
+/*nav*/
 
 nav {
   max-width: 100%;
@@ -43,9 +39,7 @@ a {
   text-decoration: none;
 }
 
-/* =========================
-   HERO HEADER
-========================= */
+/* Hero */
 
 .hero-header {
   width: 100%;
@@ -60,9 +54,7 @@ a {
   display: block;
 }
 
-/* =========================
-   TYPOGRAPHY
-========================= */
+/* type*/
 
 
 h1 {
@@ -97,19 +89,13 @@ h3 {
 
 
 
-/* =========================
-   BLOG TEXT BLOCK
-========================= */
-
 .blog-text {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-/* =========================
-   BLOG FEATURE CARDS (LARGE POSTS)
-========================= */
+/* Blog post cards*/
 
 .blog-preview {
   display: flex;
@@ -134,9 +120,7 @@ h3 {
   border-radius: 10px;
 }
 
-/* =========================
-   BLOG TEXT STYLING
-========================= */
+/* blog text styles */
 
 .date {
   font-size: 0.8rem;
@@ -165,9 +149,7 @@ h3 {
   text-decoration: none;
 }
 
-/* =========================
-   BLOG LIST (STACKED POSTS)
-========================= */
+/*Blog list */
 
 .blog-list {
   display: flex;
@@ -176,10 +158,7 @@ h3 {
   margin-top: 80px;
 }
 
-/* =========================
-   MINI CARD COMPONENT (NEW)
-========================= */
-
+/* thumbnails */
 .mini-card {
   display: flex;
   flex-direction: row;
@@ -218,9 +197,7 @@ h3 {
   line-height: 1.4;
 }
 
-/* =========================
-   GALLERY
-========================= */
+/* gallery */
 
 .gallery {
   display: grid;
@@ -228,6 +205,13 @@ h3 {
   gap: 10px;
   margin: auto;
   padding: 10px;
+}
+
+.gallery-descriptions {
+  color: #f4539e;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
 }
 
 .item {
@@ -245,9 +229,7 @@ h3 {
   border-radius: 8px;
 }
 
-/* =========================
-   FOOTER
-========================= */
+
 
 .footer {
   display: flex;
@@ -271,9 +253,7 @@ h3 {
   font-size: 14px;
 }
 
-/* =========================
-   ACCESSIBILITY
-========================= */
+/* accessability */
 
 a:focus,
 button:focus,
@@ -282,9 +262,7 @@ input:focus {
   outline-offset: 2px;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* Responsive adjustments*/
 
 @media (max-width: 768px) {
   .blog-preview {
@@ -306,9 +284,7 @@ input:focus {
   }
 }
 
-/* =========================
-   INQUIRY FORM (BOOTSTRAP INTEGRATION)
-========================= */
+/* Bootstrap inquiry*/
 
 .inquiry-form {
   max-width: 600px;
@@ -358,7 +334,6 @@ input:focus {
   background-color: #c92f05;
 }
 
-/* Optional: align button nicely in your design system */
 .inquiry-form .btn {
   margin-top: 10px;
 }
